@@ -20,7 +20,7 @@ const Navbar = () => {
 
     <Link className="navbar-brand" to="/">
           <img 
-            src="./images/logo3.png" 
+            src="../images/logo3.png" 
             className='img-fluid w-100'
             alt="Logo" 
             // style={{ width: '250px', height: '100px', marginRight: '10px' }} 
