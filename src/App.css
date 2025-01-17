@@ -1,0 +1,99 @@
+/* Copyright Â© 2025 Vishnu P Raj. All rights reserved. */
+
+*{
+  margin: 0;
+  padding: 0;
+ 
+  /* box-sizing: border-box; */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}  
+
+
+.app {
+  /* background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%); */
+  
+  background-image: url(/public/images/gggrain2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+.app1{
+  font-family: "Wallpoet", serif;
+  font-weight: 400 !important;
+  font-size: 2.5rem;
+  color: rgb(1, 0, 63);
+}
+
+
+.branch {
+  transition: transform 0.3s ease; /* Smooth transition for the transform property */
+  background-color: rgb(0 0 0 / 0.7);
+  color: #fff;
+}
+
+.branch:hover {
+  transform: scale(1.1); /* Scale the link to 120% on hover */
+}
+
+
+/* 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* src/App.css */
+/* .app {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(214, 179, 247);
+}
+.app h1{
+  color: rgb(82, 7, 117);
+}
+
+.search-bar {
+  margin: 20px 0;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.worker-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.worker-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.worker-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.worker-card ul {
+  list-style-type: none; Remove default list styling */
+  /* padding: 0; Remove padding */
+/* }
+
+.worker-card li {
+  margin: 5px 0; /* Add some space between list items */
+/* } */ 

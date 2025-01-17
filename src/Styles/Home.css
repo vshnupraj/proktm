@@ -1,0 +1,13 @@
+.box {
+    background-color: rgb(0 0 0 / 0.7);
+  color: #fff;
+  }
+
+
+  .worker {
+    transition: transform 0.3s ease; /* Smooth transition for the transform property */
+  }
+  
+  .worker:hover {
+    transform: scale(1.2); /* Scale the link to 120% on hover */
+  }

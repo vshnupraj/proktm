@@ -1,0 +1,35 @@
+.nav-bg{
+    /* background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%); */
+    background-image: url(/public/images/gggrain2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+
+}
+
+.nav-box {
+  /* background-color: rgba(27, 11, 114, 0.9); */
+  background-color: rgba(1, 0, 63, 0.9);
+}
+
+/* src/components/Navbar.css */
+.nav-item {
+  transition: transform 0.3s ease; /* Smooth transition for the transform property */
+}
+
+.nav-item:hover {
+  transform: scale(1.2); /* Scale the link to 120% on hover */
+}
+
+/* .box1{
+  transform-origin: 50% 50%; 
+  transform-box: fill-box;
+  animation: rotateBox 3s linear infinite;
+}
+
+@keyframes rotateBox {
+  to {
+    transform: scale(1.2,1.2);
+  }
+} */
