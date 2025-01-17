@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vshnupraj/proktm.git/static/css/main.453dfc78.css",
+    "main.js": "/vshnupraj/proktm.git/static/js/main.c268afe2.js",
+    "static/js/488.ae151aac.chunk.js": "/vshnupraj/proktm.git/static/js/488.ae151aac.chunk.js",
+    "static/media/gggrain2.svg": "/vshnupraj/proktm.git/static/media/gggrain2.986cf1d6d00c7297a474.svg",
+    "index.html": "/vshnupraj/proktm.git/index.html",
+    "main.453dfc78.css.map": "/vshnupraj/proktm.git/static/css/main.453dfc78.css.map",
+    "main.c268afe2.js.map": "/vshnupraj/proktm.git/static/js/main.c268afe2.js.map",
+    "488.ae151aac.chunk.js.map": "/vshnupraj/proktm.git/static/js/488.ae151aac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.453dfc78.css",
+    "static/js/main.c268afe2.js"
+  ]
+}
