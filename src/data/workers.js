@@ -4,7 +4,7 @@ const workers = [
       id: 1,
       name: "Manu",
       phone: "920 743 9816",
-      photo: "/images/Vishnu.jpg", // Add the image in the public/images folder
+      photo: "./images/Vishnu.jpg", // Add the image in the public/images folder
       places: ["Medical college", "Parambuzha", "Chuttuveli", "SH Mount"], // List of places
     },
     {
