@@ -3,11 +3,14 @@
   color: #fff;
   }
 
+.boxh{
+  height: 300px;
+}
 
-  .worker {
-    transition: transform 0.3s ease; /* Smooth transition for the transform property */
+  /* .worker {
+    transition: transform 0.3s ease; 
   }
   
   .worker:hover {
-    transform: scale(1.2); /* Scale the link to 120% on hover */
-  }
+    transform: scale(1.2); 
+  } */

@@ -2,27 +2,12 @@
 import React from 'react';
 import '../Styles/Home.css'; 
 
-// const Worker = ({ worker }) => {
-//   return (
-//     <div className="worker-card">
-//       <img src={worker.photo} alt={worker.name} />
-//       <h3>{worker.name}</h3>
-//       <p>Phone: {worker.phone}</p>
-//       <h4>Places:</h4>
-//       <ul>
-//         {worker.places.map((place, index) => (
-//           <li key={index}>{place}</li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// };
 
 const Worker = ({ worker }) => {
     return (
-        <div className='container border rounded-3 mb-3 box worker'>
+        <div className='container border rounded-3 mb-3 box worker boxh overflow-auto position-relative'>
             <div className='row m-4 '>
-                <div className='col-sm-3 '>
+                <div className='col-sm-3  position-absolute'>
 
                     <div className="" style={{ width: '6rem' }}>
                         <img src={worker.photo} alt={worker.name} className='img-fluid  border rounded-5 ' />
@@ -34,7 +19,7 @@ const Worker = ({ worker }) => {
                     
                 </div>
 
-                <div className="col-sm-9">
+                <div className="col-sm-9 position-absolute top-0 end-0">
                     
                     <h5>Places:</h5>
 

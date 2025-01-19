@@ -18,7 +18,7 @@ const Navbar = () => {
   <div className="container-fluid rounded-5 nav-box nav-bg">
     {/* <Link className="navbar-brand" to="/">Professional Couriers</Link> */}
 
-    <Link className="navbar-brand" to="/">
+    <Link className="navbar-brand" to="">
           <img 
             src="./images/logo3.png" 
             className='img-fluid w-100'

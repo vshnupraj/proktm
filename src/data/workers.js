@@ -4,72 +4,109 @@ const workers = [
       id: 1,
       name: "Manu",
       phone: "920 743 9816",
-      photo: "./images/Vishnu.jpg", // Add the image in the public/images folder
+      photo: "./images/Vishnu.jp", 
       places: ["Nagambadam","SH Mount", "Chuttuveli","Chavittuveli","Kumaranellur", "Sankranthi","Chemmarampady",
         "Doctors garden","Medical college", "Dental college", "ESI", "Ammencherry", "Aarppokara", "Panampalam",
         "Kudamaloor", "Villunni","Thonnamkuzhi", "Ambadi Junction", "Pulinchuvadu","Poothetta Junction", 
-        "Pullarikunnu MGU", "Parambuzha",  ], // List of places
+        "Pullarikunnu MGU", "Parambuzha" ], 
     },
     {
       id: 2,
       name: "Ivin",
       phone: "828 171 7457",
-      photo: "./images/ph1.jpeg", // Add the image in the public/images folder
-      places: ["Puthupally", "Manganam" , "Rubberboard Puthupally", "MMP Vanitha"], // List of places
+      photo: "./images/ph1.jpe", 
+      places: ["Gudsheppered road","DC","Mackil center","Level 10","Eerayilkadavu","MMP Vanitha", "Muttambalam",
+        "Kanjikuzhi half","Rubberboard kottayam","Sub jail","Iranjal","PArambuzha half","Devalokam half","Manganam",
+        "Puthupally", "Rubberboard Puthupally","Vettathukaval","Thottaykkadu"], 
     },
     {
       id: 3,
       name: "Adharsh",
       phone: "974 639 6683",
-      photo: "./images/Vishnu.jpg", // Add the image in the public/images folder
-      places: ["Kumarakom", "Kummanam", "Thazhathangadi", "Velur", "Thiruvathukkal", "Karapuzha", "Thekkumgopuram", "Thirunakkara", "Puthanangadi"], // List of places
+      photo: "./images/Vishnu.jp", 
+      places: ["Thirunakkara","Sreenivasa Iyyer road","Chalukunnu half","Barath hospital line","Thekkumgopuram",
+        "Karapuzha","Mini Civil station","Sundaram Finance","Core security","Puthanangadi","Thazhathangadi",
+        "Thiruvathukkal", "Velur","Illikkal","Kummanam","Kumarakom"], 
     },
     {
       id: 4,
       name: "Baiju",
       phone: "984 747 2519",
-      photo: "./images/Vishnu.jpg", // Add the image in the public/images folder
+      photo: "./images/Vishnu.jp", 
       places: ["Madhavanpadi","Kalathipady","Vadavathoor", "Manarcad", "Thiruvanchur", "Maalam", "Oravaykkal",
-        "Amayannur","Ayarkunnam" ], // List of places
+        "Amayannur","Ayarkunnam" ], 
     },
     {
       id: 5,
       name: "Rahul",
       phone: "949 616 1147",
-      photo: "./images/Vishnu.jpg", // Add the image in the public/images folder
+      photo: "./images/Vishnu.jp", 
       places: ["TB Road half","TB ML road","Star Junction half","Pallipurathukavu","Kodimatha",
-        "Before manipuzha signal","TB Junction"], // List of places
+        "Before manipuzha signal","TB Junction"], 
     },
     {
       id: 6,
       name: "Biju",
       phone: "989 518 6959",
-      photo: "./images/Vishnu.jpg", // Add the image in the public/images folder
-      places: ["Kanjirapally", "Mundakayam"], // List of places
+      photo: "./images/Vishnu.jp", 
+      places: ["Kanjirapally", "Mundakayam","Ponkunnam"], 
     },
     {
       id: 7,
       name: "Sathesh",
       phone: "944 776 6109",
-      photo: "./images/Vishnu.jpg", // Add the image in the public/images folder
-      places: ["Chingavanam", "Pakkil"], // List of places
+      photo: "./images/Vishnu.jp", 
+      places: ["Chingavanam", "Pakkil"], 
     },
     {
       id: 8,
       name: "Moses",
       phone: "994 752 1667",
-      photo: "./images/Vishnu.jpg", // Add the image in the public/images folder
-      places: ["Colletrate", "Kanjikuzhy", "Muttambalam", "Kollad 1st half"], // List of places
+      photo: "./images/Vishnu.jp", 
+      places: ["MD Commersial center","HDFC","Unity building","KDH Kottayam Drug House","MM Chandy & co",
+        "Kandathil shopping complex", "CSI Assential Square","Cyrils tower","Kuruppu chambers","PVC Chambers",
+        "Colletrate","Childerens Park line", "Kanjikuzhy","Muttambalam", "Devalokam", "Kollad 1st half"], 
     },
     {
       id: 9,
+      name: "Jaimon",
+      phone: "854 718 3340",
+      photo: "./images/Vishnu.jp", 
+      places: ["KK road","SPCS Sahithya parivarthan sang","Manorama","BCM college","St Ants girls school","Dist hospital",
+        "Mamanmappila hall","Behind mamanmappila hall", "Park line road","Matha pharma","Chandrathil drug house",
+        "Marby pharma","Public college","Vasanth & company","Sheematti","Pulimuttil","Narmada","CK Ebraham","Jim & Tom",
+        "ML road","Kalarikkal bazar","Oopputtil","Kalarikkal agencies","Kerala bank","SIB main","Kozhichantha road",
+        "Muthoot crown plaza","Big bazzar","Anupama theater","Kowmathi","Vrindhavan complex","Thriveni complex",
+        "Munsipal complex","Fedaral bank main","ARB","Achayans gold","Mini muthoot","Baratha traders","Star juntion half",
+        "LIC","Dhanya remya theater","Vaiskarakunnu","BSNL","Fire fource","Josco KK road","Supply co maveli store",
+        "Pulimudu junction","Palace road","Anaswara theater"], 
+    },
+    {
+      id: 10,
+      name: "Gopalakrishnan",
+      phone: "944 710 9532",
+      photo: "./images/Vishnu.jp", 
+      places: ["SS Road", "Chelliyozhukkam road","Nagambadom before bridge","Railway station road","SH Medical center",
+        "Logos half","KSEB road"], 
+    },
+    {
+      id: 11,
+      name: "Raju",
+      phone: "963 345 6173",
+      photo: "./images/Vishnu.jp", 
+      places: ["Baker junction","YMCA","Nagambadam Axis bank","Annamkunnu road","CMS College line","Chalukunnu half",
+        "Chungam","Vaarisheeri","Mallusheeri","Kudayampadi","Olassa","PArippu","Aymanam","Mariyathuruth","Paragon",
+        "V Publishers","Deshabhimani","Madhyamamom" ], 
+    },
+    {
+      id: 12,
       name: "No person",
       phone: "--------",
-      photo: "./images/No_Image.jpg", // Add the image in the public/images folder
-      places: ["Pamppady", "Kuropada", "Velloor", "Kothala", "Pallikkathode", "8th Mile"], // List of places
+      photo: "./images/No_Image.jpg", 
+      places: ["Pamppady", "Kuropada", "Velloor", "Kothala", "Pallikkathode", "8th Mile"], 
     },
     
-    // Add more workers as needed
+   
   ];
   
   export default workers;

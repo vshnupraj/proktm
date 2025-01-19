@@ -1,7 +1,7 @@
 // src/pages/Home.js
 import React, { useState } from 'react';
-import workers from '../data/workers'; // Adjust the import path
-import Worker from '../components/Worker'; // Adjust the import path
+import workers from '../data/workers';
+import Worker from '../components/Worker';
 import '../Styles/Home.css'; 
 
 const Home = () => {
@@ -13,34 +13,6 @@ const Home = () => {
     worker.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
     worker.places.some(place => place.toLowerCase().includes(placeSearchTerm.toLowerCase()))
   );
-
-//   return (
-//     <div>
-//         {/* Search Bar for Workers */}
-//       <input
-//         type="text"
-//         placeholder="Search for a Name..."
-//         value={searchTerm}
-//         onChange={(e) => setSearchTerm(e.target.value)}
-//         className="search-bar form-control mb-3  sm-w-50"
-//       />
-
-//       {/* Search Bar for Places */}
-//       <input
-//         type="text"
-//         placeholder="Search for a Place..."
-//         value={placeSearchTerm}
-//         onChange={(e) => setPlaceSearchTerm(e.target.value)}
-//         className="search-bar form-control mb-3"
-//       />
-//       <div className="worker-list">
-//         {filteredWorkers.map(worker => (
-//           <Worker key={worker.id} worker={worker} />
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
 
 return (
     <div className='container'>
