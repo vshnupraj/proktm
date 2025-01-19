@@ -5,9 +5,9 @@ import '../Styles/Home.css';
 
 const Worker = ({ worker }) => {
     return (
-        <div className='container border rounded-3 mb-3 box worker boxh overflow-auto position-relative'>
+        <div className='container border rounded-3 mb-3 box worker boxh overflow-auto '>
             <div className='row m-4 '>
-                <div className='col-sm-3  position-absolute'>
+                <div className='col-sm-3  '>
 
                     <div className="" style={{ width: '6rem' }}>
                         <img src={worker.photo} alt={worker.name} className='img-fluid  border rounded-5 ' />
@@ -19,7 +19,7 @@ const Worker = ({ worker }) => {
                     
                 </div>
 
-                <div className="col-sm-9 position-absolute top-0 end-0">
+                <div className="col-sm-9 ">
                     
                     <h5>Places:</h5>
 
