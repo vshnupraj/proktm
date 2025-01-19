@@ -14,13 +14,13 @@ const workers = [
       id: 2,
       name: "Ivin",
       phone: "828 171 7457",
-      photo: "./images/Ph1.jpeg", // Add the image in the public/images folder
+      photo: "./images/ph1.jpeg", // Add the image in the public/images folder
       places: ["Puthupally", "Manganam" , "Rubberboard Puthupally", "MMP Vanitha"], // List of places
     },
     {
       id: 3,
-      name: "Sanoop",
-      phone: "790 923 2478",
+      name: "Adharsh",
+      phone: "974 639 6683",
       photo: "./images/Vishnu.jpg", // Add the image in the public/images folder
       places: ["Kumarakom", "Kummanam", "Thazhathangadi", "Velur", "Thiruvathukkal", "Karapuzha", "Thekkumgopuram", "Thirunakkara", "Puthanangadi"], // List of places
     },
